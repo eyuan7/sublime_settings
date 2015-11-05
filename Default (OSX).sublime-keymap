@@ -1,0 +1,30 @@
+[
+	{ "keys": ["super+alt+left"], "command": "prev_view_in_stack" },
+	{ "keys": ["super+alt+right"], "command": "next_view_in_stack" },
+	{ "keys": ["ctrl+tab"], "command": "next_view" },
+	{ "keys": ["ctrl+shift+tab"], "command": "prev_view" },
+
+    { "keys": ["ctrl+l"], "command": "expand_selection", "args": {"to": "line"} },
+    { "keys": ["super+l"], "command": "show_at_center" },
+
+    { "keys": ["ctrl+k", "ctrl+b"], "command": "toggle_side_bar" },
+
+    { "keys": ["ctrl+p"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
+    { "keys": ["ctrl+shift+p"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
+
+    { "keys": ["ctrl+d"], "command": "find_under_expand" },
+
+    { "keys": ["ctrl+enter"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Add Line.sublime-macro"} },
+
+    { "keys": ["ctrl+r"], "command": "show_overlay", "args": {"overlay": "goto", "text": "@"} },
+
+    { "keys": ["ctrl+enter"], "command": "plain_tasks_new","context": [{ "key": "selector", "operator": "equal", "operand": "text.todo" }] },
+    { "keys": ["ctrl+i"], "command": "plain_tasks_new","context": [{ "key": "selector", "operator": "equal", "operand": "text.todo" }] },
+
+    { "keys": ["ctrl+forward_slash"], "command": "toggle_comment", "args": { "block": false } },
+    { "keys": ["ctrl+alt+forward_slash"], "command": "toggle_comment", "args": { "block": true } },
+
+    { "keys": ["super+y"], "command": "yank" },
+    { "keys": ["ctrl+y"], "command": "redo_or_repeat" },
+
+]
