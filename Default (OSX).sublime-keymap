@@ -26,5 +26,7 @@
 
     { "keys": ["super+y"], "command": "yank" },
     { "keys": ["ctrl+y"], "command": "redo_or_repeat" },
+    { "keys": ["alt+g"], "command": "find_next" },
+    { "keys": ["alt+shift+g"], "command": "find_prev" },
 
 ]
